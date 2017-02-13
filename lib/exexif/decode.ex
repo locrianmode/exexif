@@ -122,6 +122,7 @@ defmodule Exexif.Decode do
   defp exposure_program(7), do: "Portrait"
   defp exposure_program(8), do: "Landscape"
   defp exposure_program(9), do: "Bulb"
+  defp exposure_program(_), do: "Other"
 
   defp sensitivity_type(0), do: "Unknown"
   defp sensitivity_type(1), do: "Standard Output Sensitivity"
